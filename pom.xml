@@ -51,6 +51,13 @@
 			<optional>true</optional>
 		</dependency>
 
+		<!-- thymeleaf模板支持 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+			<optional>true</optional>
+		</dependency>
+
 		<!-- 集成Mybatis -->
 		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
@@ -71,6 +78,35 @@
 		<!-- lombok支持(简化实体类编码,需要同时安装插件到IDE) -->
 		<!-- <dependency> <groupId>org.projectlombok</groupId> <artifactId>lombok</artifactId> 
 			<scope>provided</scope> </dependency> -->
+
+		<!-- 支付宝SDK -->
+		<dependency>
+			<groupId>com.alipay</groupId>
+			<artifactId>sdk-java</artifactId>
+			<version>3.3.2</version>
+		</dependency>
+
+		<!-- swagger支持 -->
+		<dependency>
+			<groupId>io.swagger</groupId>
+			<artifactId>swagger-annotations</artifactId>
+			<version>1.5.13</version>
+		</dependency>
+
+		<!-- 日志框架支持 -->
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.2</version>
+		</dependency>
+
+		<!-- fastjson支持 -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.58</version>
+		</dependency>
+
 
 	</dependencies>
 
