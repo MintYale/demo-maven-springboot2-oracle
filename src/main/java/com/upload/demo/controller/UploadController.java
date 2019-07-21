@@ -21,7 +21,7 @@ public class UploadController {
 
 	@GetMapping("/upload")
 	public String upload() {
-		return "upload1"; // 模板页面名称
+		return "uploadfile"; // 模板(视图)页面名称
 	}
 
 	@PostMapping("/upload")

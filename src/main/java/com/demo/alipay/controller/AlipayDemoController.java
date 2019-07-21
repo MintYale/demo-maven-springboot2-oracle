@@ -1,4 +1,4 @@
-package com.alipay.demo.controller;
+package com.demo.alipay.controller;
 
 import com.alipay.api.AlipayApiException;
 import com.alipay.api.AlipayClient;
@@ -19,7 +19,7 @@ import java.util.Iterator;
 import java.util.Map;
 
 /**
- * 支付宝借口对接测试工具类
+ * 支付宝接口对接测试工具类
  */
 @Controller
 @RequestMapping(value = "/alipay")
